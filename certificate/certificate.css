@@ -86,11 +86,15 @@
     display: flex;
 }
 
+.display{
+    display: block;
+}
+
 .about {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 28px;
+    font-size: 25px;
     margin-top: 1rem;
     font-weight: 100;
     color: #757575;
