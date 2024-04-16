@@ -52,8 +52,12 @@
      padding-top: 5px;
      border: 1px solid grey;
      top: 5rem;
-    display: block;
+    display: none;
     z-index: 20;
+ }
+
+ .display{
+    display: block;
  }
 
  .dropul {
@@ -90,7 +94,7 @@
      display: flex;
      flex-direction: column;
      align-items: center;
-     font-size: 28px;
+     font-size: 25px;
      margin-top: 1rem;
      font-weight: 100;
      color: #757575;
@@ -265,3 +269,4 @@
  .collegeImage > img{
     width: 8rem;
  }
+
