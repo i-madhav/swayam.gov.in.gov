@@ -231,7 +231,7 @@
  .coursesNumber {
      background-color: #003987;
      color: white;
-     padding: 1.5rem 0;
+     padding: 1.2rem 0;
  }
 
  .courses {
@@ -240,7 +240,7 @@
 
  .cItem {
      list-style: none;
-     margin-bottom: 2rem;
+     margin-bottom: 1rem;
      font-size: 18px;
      font-weight: 300;
      font-family: "Poppins", sans-serif;
@@ -255,9 +255,8 @@
      margin: 1rem 0;
      color: #757575;
      font-weight: 400;
-     font-size: 16px;
+     font-size: 18px;
      font-family: "Poppins";
-     
  }
 
  .p1-1 {
