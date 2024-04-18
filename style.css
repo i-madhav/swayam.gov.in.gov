@@ -57,7 +57,7 @@
  }
 
  .mail-p{
-    margin-right: 2rem;
+    margin-left: 3rem;
  }
 
  .dropdown {
@@ -112,7 +112,7 @@
      align-items: center;
      font-size: 18px;
      margin-top: 1rem;
-     font-weight: 100;
+     font-weight: 300;
      color: #605e5e;
      font-family: "poppins";
  }
