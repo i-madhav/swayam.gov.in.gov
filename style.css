@@ -105,7 +105,7 @@
      display: flex;
      flex-direction: column;
      align-items: center;
-     font-size: 16px;
+     font-size: 18px;
      margin-top: 1rem;
      font-weight: 100;
      color: #757575;
@@ -231,7 +231,7 @@
  .coursesNumber {
      background-color: #003987;
      color: white;
-     padding: 1.8rem 0;
+     padding: 1.5rem 0;
  }
 
  .courses {
@@ -241,7 +241,7 @@
  .cItem {
      list-style: none;
      margin-bottom: 2rem;
-     font-size: 16px;
+     font-size: 18px;
      font-weight: 300;
      font-family: "Poppins", sans-serif;
  }
