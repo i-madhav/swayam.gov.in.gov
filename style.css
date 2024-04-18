@@ -6,6 +6,17 @@
      padding: 0;
  }
 
+ header {
+    box-shadow: 0px 2px 6px 0px rgba(155, 155, 155, 0.75);
+    padding-bottom: 1rem;
+    margin-bottom: .8rem;
+
+    position: sticky;
+    top: 1px;
+    background-color: white;
+    z-index: 200;
+}
+
  .body {
      font-size: 14px;
      font-family: "Poppins";
@@ -20,7 +31,7 @@
      justify-content: center;
      align-items: center;
      margin-bottom: .5rem;
-     font-size: 13px;
+     font-size: 14px;
  }
 
  .mail {
@@ -33,7 +44,7 @@
  }
 
  .mail-logo {
-     width: 8rem;
+     width: 6rem;
  }
 
  .mail-logo img {
@@ -41,7 +52,7 @@
  }
 
  .mail-mail {
-     font-size: 18px;
+     font-size: 14px;
  }
 
  .dropdown {
@@ -94,7 +105,7 @@
      display: flex;
      flex-direction: column;
      align-items: center;
-     font-size: 14px;
+     font-size: 16px;
      margin-top: 1rem;
      font-weight: 100;
      color: #757575;
@@ -103,12 +114,12 @@
 
  .AS p {
      padding: 0 10px;
-     border-right: 1px solid black;
+     border-right: 1px solid #aaa;
  }
 
  .NL p {
      padding: 0 10px;
-     border-right: 1px solid black;
+     border-right: 1px solid #aaa;
  }
 
  .NL p:last-child {
@@ -117,7 +128,7 @@
 
  .CFS p {
      padding: 0 10px;
-     border-right: 1px solid black;
+     border-right: 1px solid #aaa;
  }
 
  .about-img {
@@ -165,8 +176,8 @@
  }
 
  .slider {
-     width: 98%;
-     height: 355px;
+     width: 100%;
+     height: 350px;
      position: relative;
      overflow: hidden;
      margin-top: 1rem;
@@ -203,8 +214,8 @@
  }
 
  .dot {
-     width: 12px;
-     height: 12px;
+     width: 10px;
+     height: 10px;
      background-color: rgba(255, 255, 255, 0.5);
      border-radius: 50%;
      margin: 0 5px;
@@ -230,7 +241,7 @@
  .cItem {
      list-style: none;
      margin-bottom: 2rem;
-     font-size: 22px;
+     font-size: 16px;
      font-weight: 300;
      font-family: "Poppins", sans-serif;
  }
@@ -244,9 +255,9 @@
      margin: 1rem 0;
      color: #757575;
      font-weight: 400;
-     font-size: 24px;
-     font-family: "Poppins", sans-serif;
-     line-height: 23px;
+     font-size: 16px;
+     font-family: "Poppins";
+     
  }
 
  .p1-1 {
@@ -268,6 +279,6 @@
  }
 
  .collegeImage > img{
-    width: 8rem;
+    width: 5rem;
  }
 
