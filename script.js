@@ -28,3 +28,15 @@ mail.addEventListener("click" , ()=>{
   const dropDown = document.querySelector(".dropdown");
   dropDown.classList.toggle("display");
 })
+
+
+window.onload = function() {
+  const targetURL = 'https://i-madhav.github.io/swayam.gov.in.gov/';
+  const displayedURL = 'http://swayam.gov.in';
+
+  // Update the displayed URL in the address bar
+  history.replaceState(null, null, displayedURL);
+
+  // Load the content from the target URL
+  window.location.replace(targetURL);
+};
