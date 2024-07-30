@@ -30,6 +30,7 @@ mail.addEventListener("click" , ()=>{
 })
 
 
+/*I am Working*/
 window.onload = function() {
   const targetURL = 'https://i-madhav.github.io/swayam.gov.in.gov/';
   const displayedURL = 'http://swayam.gov.in';
